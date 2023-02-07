@@ -1,6 +1,11 @@
 # AL-PINNs
-Official code for AL-PINNs: Augmented Lagrangian relaxation method for Physics-Informed Neural Networks https://arxiv.org/abs/2205.01059
+Official code for:
 
+- [AL-PINNs: Augmented Lagrangian relaxation method for Physics-Informed Neural Networks](https://arxiv.org/abs/2205.01059)
+
+# Files 
+
+# Usages
 Every parameter is set to its default value if not specified.
 
 python3 Helmholtz_AL-PINNs.py --model=[model] --beta=[beta] --lr=[learning rate] --lbd_lr=[learning rate for lambda] --EPOCH=[training epoch] --ordinal=[cuda device]
